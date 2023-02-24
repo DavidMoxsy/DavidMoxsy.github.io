@@ -1,0 +1,40 @@
+.home_box {
+    position: relative;
+    min-height: 1em;
+    margin: 1em 0;
+    background: #1f2453;
+    padding: 20px;
+    line-height: 1.4285em;
+    color: #fdf1db;
+    transition: "opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease";
+    border-radius: 9px;
+    box-shadow: inset 0 0 0 1px rgb(34 36 38 / 22%), 0 0 0 0 transparent;
+    text-align: center;
+}
+
+.home_div {
+    display: block;
+    height: 240px;
+}
+
+.home_item {
+    padding: 8.4px;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #454a72 !important;
+    color: #fdf1db !important;
+}
+
+.home_item a {
+    color: #fdf1db;
+    text-decoration: none;
+}
+
+.home_item a:hover {
+    color: red;
+}
+
+.css-887cpn-MuiPaper-root {
+    background-color: red;
+}

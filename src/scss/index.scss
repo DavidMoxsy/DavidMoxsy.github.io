@@ -1,0 +1,12 @@
+//Routes
+@import "./routes/home/home";
+@import "./routes/bancoNacional/bancoNacional";
+@import "./routes/bancoNacional/colones/index.scss";
+
+//Components
+@import "./components/navbar/navbar";
+@import "./components/header/header";
+@import "./components/menuItems/menuItems";
+@import "./components/dropdown/dropdown";
+@import "./components/left_table/left_table";
+@import "./components/right_table/right_table";

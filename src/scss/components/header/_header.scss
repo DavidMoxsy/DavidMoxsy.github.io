@@ -1,0 +1,59 @@
+header {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    color: RGB(253, 241, 219);
+    background-color: RGB(31, 36, 83);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.fa-home:hover {
+    color: #e0c486;
+}
+
+.header_nav-area {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.header_logo {
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    .header_nombre {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .header_nombre {
+        font-size: 16px;
+        position: absolute;
+        left: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header_nombre {
+        font-size: 16px;
+        position: absolute;
+        left: 83%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header_nombre {
+        font-size: 16px;
+        position: absolute;
+        left: 85%;
+        text-align: center;
+    }
+}
